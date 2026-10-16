@@ -14,16 +14,7 @@
 Pleatwright is an **AI-native CAD software for origami design**. It uses a **neuro-symbolic approach** that leverages LLM for reasoning and decision-making and computational-origami algorithms for deterministic solving.
  
 ## ⚙️ Overview
- 
-```mermaid
-flowchart LR
-    A["💬 Query"] --> B["🧊 3D mesh<br/><sub>HF model</sub>"]
-    B --> C["🌳 Tree graph<br/><sub>LLM + MCP tools</sub>"]
-    C --> D["📐 Packing<br/><sub>flaps</sub>"]
-    D --> E["✏️ Solving<br/><sub>crease pattern</sub>"]
-    E --> F["🦂 Shaping<br/><sub>BFS</sub>"]
-```
- 
+
 Users send a **query** (a description of the desired subject), a **HF model** generates a 3D mesh of the subject, and an **LLM (Sonnet 5)** uses MCP tools to take measurements of the appendages and draw a **tree graph** of the structure. A **computational origami algorithm** is then used to map the tree graph onto a square grid and then fill in creases to produce a **flat-foldable base**. The base is then shaped with a **BFS algorithm** to produce a stick-figure-like model that can be further shaped by Origami artists.
 
  
