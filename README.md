@@ -7,6 +7,8 @@
 </p>
  
 ▶️ [pleatwright demo](https://www.youtube.com/watch?v=8e9vlsNsiY0)
+
+[public repo](https://github.com/raphaeldchen/Pleatwright)
  
 </div>
 
